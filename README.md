@@ -13,11 +13,11 @@ You can see the result at
 ### Three easy steps
 
 However, since I had stumbled into this project without any planning, I didn't use any
-version control along the way. But I did keep track of when I verified and modified tasks, so it
-was possible to map out my activity _post hoc_.
-Dates of activity are extracted from the headers of tasks if available, or otherwise obtained
-from file modification time-stamps.  The only real trick was figuring out the right sequence
-of commands to have ```git --amend``` work smoothly.
+version control along the way.  But I did keep track of when I downloaded and modified tasks, so it
+was possible to map out my activity _post hoc_, and even display an accurate time-line of my 
+activity.  File modification dates were extracted from the headers of tasks if available 
+(or otherwise obtained from file modification time-stamps).  The only real trick was figuring 
+out the right sequence of commands to have ```git --amend``` work smoothly.
 
 * export.pl – Perl program generates shell program
 * export.sh – shell program populates git archive, push to remote
