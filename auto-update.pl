@@ -13,7 +13,7 @@ $msg_new  = 'initial commit of task';
 for $new (`$git status | grep -v modified: | grep '^\t'`) {
     chomp $new;
     $new =~ s/^\t//;
-    next unless -X $new;
+    next unless -X $new && `file $f` =~ /perl6 script text executable/i;
     system qq[$git add $new; $git commit -m "$msg_new $new"];
 }
 
