@@ -1,4 +1,4 @@
-## How non-git Rosetta Code project was retro-fit into git
+## How Rosetta Code project was retro-fit into git
 
 When Perl 6 was nearing its long-awaited __Christmas__ release in 2015, I decided to take
 a closer look at the language via the Rosetta Code site.  One of the very first tasks I 
