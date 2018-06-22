@@ -1,11 +1,13 @@
-## How non-git project was retro-fit into git
+## How non-git Rosetta Code project was retro-fit into git
 
 When Perl 6 was nearing its long-awaited __Christmas__ release in 2015, I decided to take
 a closer look at the language via the Rosetta Code site.  One of the very first tasks I 
 looked at didn't run: the language specification had changed since it was written 
 (unsurprising given the very long gestation). I fixed that one, and then another, and then 
 another...  In the end I decided to try to validate all the Perl 6 code, and now smoke-test 
-it daily.  You can see the result at
+it daily.  
+
+You can see the result at
 [Rosettacode-Perl6-Smoke](https://github.com/SqrtNegInf/Rosettacode-Perl6-Smoke)
 
 ### Three easy steps
